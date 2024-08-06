@@ -12,7 +12,7 @@ public class Wood3 {
     public Wood3(Rabbit4 rabbit) {
         this.rabbit = rabbit;
     }
-
+    // тут аннотация над классом и аннотация над конструктором
     @Override
     public String toString() {
         return ", на дереве заяц " + rabbit.toString();

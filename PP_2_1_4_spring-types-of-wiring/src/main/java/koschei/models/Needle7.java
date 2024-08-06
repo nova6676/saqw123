@@ -3,7 +3,7 @@ package koschei.models;
 import org.springframework.stereotype.Component;
 
 @Component
-
+        //тут тоже просто через компонент
 public class Needle7 {
 
     @Override

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Egg6 {
     @Autowired
     private Needle7 needle7;
-
+    //тут через аннтоацию над полем
     @Override
     public String toString() {
         return ", в яйце иголка " + needle7.toString();

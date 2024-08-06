@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Ocean1 {
+    // тут через аннотации над классом и полем
 
     @Autowired
     private Island2 island;
